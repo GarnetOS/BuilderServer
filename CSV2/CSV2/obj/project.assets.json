@@ -8,23 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Suchej\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\radim\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Suchej\\Desktop\\Škola T4\\PRG\\CSV2\\CSV2\\CSV2.csproj",
+      "projectUniqueName": "C:\\Users\\radim\\Sync\\Dokumenty\\Workspace\\BuilderServer\\CSV2\\CSV2\\CSV2.csproj",
       "projectName": "CSV2",
-      "projectPath": "C:\\Users\\Suchej\\Desktop\\Škola T4\\PRG\\CSV2\\CSV2\\CSV2.csproj",
-      "packagesPath": "C:\\Users\\Suchej\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Suchej\\Desktop\\Škola T4\\PRG\\CSV2\\CSV2\\obj\\",
+      "projectPath": "C:\\Users\\radim\\Sync\\Dokumenty\\Workspace\\BuilderServer\\CSV2\\CSV2\\CSV2.csproj",
+      "packagesPath": "C:\\Users\\radim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\radim\\Sync\\Dokumenty\\Workspace\\BuilderServer\\CSV2\\CSV2\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Suchej\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\radim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
