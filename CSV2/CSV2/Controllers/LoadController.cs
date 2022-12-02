@@ -18,6 +18,10 @@ namespace CSV2.Controllers
             System.IO.File.ReadAllText("input.csv");
             
         }
+        public string Get(int maxTime, string Name)
+        {
+            return $"{maxTime}:{Name}";
+        }
 
     }
 }
