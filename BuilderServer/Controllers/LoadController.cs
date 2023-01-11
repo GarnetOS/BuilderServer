@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BuilderServer.Data;
+using BuilderServer.Models;
+using Microsoft.AspNetCore.Mvc;
 using System.IO;
 using System.Runtime.CompilerServices;
 
@@ -6,6 +8,7 @@ namespace CSV2.Controllers
 {
     public class LoadController : Controller
     {
+        public readonly ApplicationDbContext _context;
         private string _fileName;
         public IActionResult Index()
         {            
@@ -22,5 +25,10 @@ namespace CSV2.Controllers
             return $"{maxTime}:{Name}";
         }
 
+        void Write(Item item)
+        {
+            _context.Items.Add(item);
+            _context.SaveChanges();
+        }
     }
 }
