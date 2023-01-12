@@ -24,7 +24,14 @@ namespace CSV2.Controllers
         {
             return $"{maxTime}:{Name}";
         }
-
+        public Item Select(int SBU)
+        {
+            var selectedItem = _context.Items
+                .Where(i => i.SBU <= SBU)
+                .OrderByDescending(i => i.SBU)
+                .FirstOrDefault();
+            return selectedItem;
+        }
         void Write(Item item)
         {
             _context.Items.Add(item);

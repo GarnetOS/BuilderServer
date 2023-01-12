@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vondr\\Desktop\\GarnetOS\\BuilderServer\\BuilderServer\\BuilderServer.csproj": {}
+    "C:\\Users\\stejs\\Documents\\GitHub\\BuilderServer\\BuilderServer\\BuilderServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vondr\\Desktop\\GarnetOS\\BuilderServer\\BuilderServer\\BuilderServer.csproj": {
+    "C:\\Users\\stejs\\Documents\\GitHub\\BuilderServer\\BuilderServer\\BuilderServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vondr\\Desktop\\GarnetOS\\BuilderServer\\BuilderServer\\BuilderServer.csproj",
+        "projectUniqueName": "C:\\Users\\stejs\\Documents\\GitHub\\BuilderServer\\BuilderServer\\BuilderServer.csproj",
         "projectName": "BuilderServer",
-        "projectPath": "C:\\Users\\vondr\\Desktop\\GarnetOS\\BuilderServer\\BuilderServer\\BuilderServer.csproj",
-        "packagesPath": "C:\\Users\\vondr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vondr\\Desktop\\GarnetOS\\BuilderServer\\BuilderServer\\obj\\",
+        "projectPath": "C:\\Users\\stejs\\Documents\\GitHub\\BuilderServer\\BuilderServer\\BuilderServer.csproj",
+        "packagesPath": "C:\\Users\\stejs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stejs\\Documents\\GitHub\\BuilderServer\\BuilderServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\vondr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stejs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
